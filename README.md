@@ -1,1 +1,50 @@
-# api-samples
+# QuickTapSurvey API Sample Code and Helper Libraries
+ QuickTapSurvey allows businesses to collect data on mobile tablets and phones even if they are offline and aggregate that data across
+ many devices in order to view, download, analyze or export that data. QuickTapSurvey also provides a RESTful JSON based API. 
+ This repository contains helper libraries and sample code in various programming languages that allow our customers to connect to our API in seconds 
+ without having to write most of the standard boiler plate code. These libraries have been designed to work on OSX and Linux operating systems.
+ 
+ IMPORTANT: These helper libraries or "sofware" is provided "as is", without warranty of any kind, express or implied,
+ including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement.
+ In no event shall QuickTapSurvey or TabbleDabble Inc. be liable for any claim, damages or other liability, whether in
+ an action or contract, tort or otherwise, arising from, out of or in connection with the software or the use or other 
+ dealings in the software. Use this software at your own risk.
+ 
+The help library files for the following programming languages are within their respectively named folders in the root folder:
+- [PHP](https://github.com/TabbleDabble/quicktapsurvey-api-helper/tree/master/php)
+- [Python](https://github.com/TabbleDabble/quicktapsurvey-api-helper/tree/master/python)
+
+# Overview
+The helper libraries do the following:
+1. Login to the QuickTapSurvey API with the given username, password and API key. You must generate your API key in 
+advance in the account section of [QuickTapSurvey](https://www.quicktapsurvey.com/admin/account) while logged in as an Account Manager.
+2. Retrieve a list of the first 25 surveys
+3. Retrieve the first 25 survey responses of the first survey in the list
+
+Dates must be in the following format: **2014-09-09 17:25:34 -0400**
+
+More [detailed documentation](http://support.quicktapsurvey.com/support/solutions/159751) on the QuickTapSurvey API can be found [here](http://support.quicktapsurvey.com/support/solutions/159751)
+
+## Feedback
+If you have feedback, suggestions or comments on the API, please [contact us](mailto:support@quicktapsurvey.com) anytime.
+# PHP
+The php helper scripts require the php curl binding of the cURL C library, libcurl.
+In many cases, this may already be installed with your php installation.
+See [here](http://php.net/manual/en/book.curl.php) for more details. 
+To run the sample code, enter the following command in the location where your helper scripts reside:
+```
+php api.php
+```
+
+# Python
+The python helper scripts require pycurl, a python binding of the cURL C library, libcurl.
+To install pycurl on OSX, you can try to run the following command:
+```
+sudo easy_install pycurl
+```
+To run the sample code, enter the following command in the location where your helper scripts reside:
+```
+python api.py
+```
+
+Keywords: ipad survey app tablet phone data collection lead capture acquisition retrieval audit evaluation customer satisfaction feedback form
