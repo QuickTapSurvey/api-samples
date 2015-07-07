@@ -11,8 +11,8 @@
  dealings in the software. Use this software at your own risk.
  
 The help library files for the following programming languages are within their respectively named folders in the root folder:
-- [PHP](https://github.com/QuickTapSurvey/api-samples/tree/master/php)
-- [Python](https://github.com/QuickTapSurvey/api-samples/tree/master/python)
+- [PHP](https://github.com/QuickTapSurvey/api-samples/tree/master/PHP)
+- [Python](https://github.com/QuickTapSurvey/api-samples/tree/master/Python)
 
 # Overview
 The helper libraries do the following:
