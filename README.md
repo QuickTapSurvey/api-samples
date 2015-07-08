@@ -4,7 +4,7 @@
  This repository contains helper libraries and sample code in various programming languages that allow our customers to connect to our API in seconds 
  without having to write most of the standard boiler plate code. These libraries have been designed to work on OSX and Linux operating systems.
  
- IMPORTANT: These helper librarie sand sample code or "sofware" is provided "as is", without warranty of any kind, express or implied,
+ IMPORTANT: These helper libraries and sample code or "sofware" is provided "as is", without warranty of any kind, express or implied,
  including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement.
  In no event shall QuickTapSurvey or TabbleDabble Inc. be liable for any claim, damages or other liability, whether in
  an action or contract, tort or otherwise, arising from, out of or in connection with the software or the use or other 
