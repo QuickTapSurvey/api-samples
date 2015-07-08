@@ -13,6 +13,7 @@
 The help library files for the following programming languages are within their respectively named folders in the root folder:
 - [PHP](https://github.com/QuickTapSurvey/api-samples/tree/master/PHP)
 - [Python](https://github.com/QuickTapSurvey/api-samples/tree/master/Python)
+- [Java](https://github.com/QuickTapSurvey/api-samples/tree/master/Java)
 
 # Overview
 The helper libraries do the following:
