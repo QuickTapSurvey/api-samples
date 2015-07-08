@@ -26,16 +26,16 @@ public class Main {
 
 	// final static String endpointUrl =
 	// "https://www.quicktapsurvey.com/api-v1/";
-	final static String endpointUrl = "https://tm-macbook-pro.local/api-v1/";
+	final static String endpointUrl = "https://www.quicktapsurvey.com/api-v1/";
 	static Logger log;
 
 	public static void main(String[] args) {
 
 		log = Logger.getLogger(Main.class);
 
-		String username = "tmapi";
-		String password = "Passw0rd";
-		String apiKey = "D262ZK77Q2OTRQBMYKQCBXKXSL6Q7JHU";
+		String username = "myusername";
+		String password = "mypassword";
+		String apiKey = "myapikey";
 
 		ConnectionManager conn = new ConnectionManager(endpointUrl);
 
