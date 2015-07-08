@@ -24,12 +24,15 @@ advance in the account section of [QuickTapSurvey](https://www.quicktapsurvey.co
 
 Dates must be in the following format: **2014-09-09 17:25:34 -0400**
 
+For all the of the sample code, you must update the username, password and API key values to your own values.
+
 More [detailed documentation](http://support.quicktapsurvey.com/support/solutions/159751) on the QuickTapSurvey API can be found [here](http://support.quicktapsurvey.com/support/solutions/159751)
 
 ## Feedback
 If you have feedback, suggestions or comments on the API, please [contact us](mailto:support@quicktapsurvey.com) anytime.
+
 # PHP
-The php helper scripts require the php curl binding of the cURL C library, libcurl.
+To use the PHP sample code, modify the api.php file to set your own username, password and API key. The PHP helper scripts require the PHP curl binding of the cURL C library, libcurl.
 In many cases, this may already be installed with your php installation.
 See [here](http://php.net/manual/en/book.curl.php) for more details. 
 To run the sample code, enter the following command in the location where your helper scripts reside:
@@ -38,7 +41,7 @@ php api.php
 ```
 
 # Python
-The python helper scripts require pycurl, a python binding of the cURL C library, libcurl.
+To use the Python sample code, modify the api.php file to set your own username, password and API key. The python helper scripts require pycurl, a python binding of the cURL C library, libcurl.
 To install pycurl on OSX, you can try to run the following command:
 ```
 sudo easy_install pycurl
@@ -48,6 +51,6 @@ To run the sample code, enter the following command in the location where your h
 python api.py
 ```
 # Java
-The Java sample code and helper classes are contained in the format of an Eclipse project. Import the Java folder as a project in Eclipse and then use a run configuration to run it from within Eclipse. It uses Gson for JSON encoding and decoding. It also uses log4j as a logging too. These two libraries (JARs) are included in the project.
+To use the Java sample code, modify the Main.java file to set your own username, password and API key.The Java sample code and helper classes are contained in the format of an Eclipse project. Import the Java folder as a project in Eclipse and then use a run configuration to run it from within Eclipse. It uses Gson for JSON encoding and decoding. It also uses log4j as a logging too. These two libraries (JARs) are included in the project.
 
 Keywords: ipad survey app tablet phone data collection lead capture acquisition retrieval audit evaluation customer satisfaction feedback form
