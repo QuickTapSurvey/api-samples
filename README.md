@@ -48,6 +48,6 @@ To run the sample code, enter the following command in the location where your h
 python api.py
 ```
 # Java
-The Java sample code and helper classes are contained in the format of an Eclipse project. It uses Gson for JSON encoding and decoding. It also uses log4j as a logging too. These two libraries (JARs) are included in the project.
+The Java sample code and helper classes are contained in the format of an Eclipse project. Import the Java folder as a project in Eclipse and then use a run configuration to run it from within Eclipse. It uses Gson for JSON encoding and decoding. It also uses log4j as a logging too. These two libraries (JARs) are included in the project.
 
 Keywords: ipad survey app tablet phone data collection lead capture acquisition retrieval audit evaluation customer satisfaction feedback form
