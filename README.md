@@ -4,7 +4,7 @@
  This repository contains helper libraries and sample code in various programming languages that allow our customers to connect to our API in seconds 
  without having to write most of the standard boiler plate code. These libraries have been designed to work on OSX and Linux operating systems.
  
- IMPORTANT: These helper libraries or "sofware" is provided "as is", without warranty of any kind, express or implied,
+ IMPORTANT: These helper librarie sand sample code or "sofware" is provided "as is", without warranty of any kind, express or implied,
  including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement.
  In no event shall QuickTapSurvey or TabbleDabble Inc. be liable for any claim, damages or other liability, whether in
  an action or contract, tort or otherwise, arising from, out of or in connection with the software or the use or other 
@@ -13,6 +13,7 @@
 The help library files for the following programming languages are within their respectively named folders in the root folder:
 - [PHP](https://github.com/QuickTapSurvey/api-samples/tree/master/PHP)
 - [Python](https://github.com/QuickTapSurvey/api-samples/tree/master/Python)
+- [Java](https://github.com/QuickTapSurvey/api-samples/tree/master/Java)
 
 # Overview
 The helper libraries do the following:
@@ -46,5 +47,7 @@ To run the sample code, enter the following command in the location where your h
 ```
 python api.py
 ```
+# Java
+The Java sample code and helper classes are contained in the format of an Eclipse project. Import the Java folder as a project in Eclipse and then use a run configuration to run it from within Eclipse. It uses Gson for JSON encoding and decoding. It also uses log4j as a logging too. These two libraries (JARs) are included in the project.
 
 Keywords: ipad survey app tablet phone data collection lead capture acquisition retrieval audit evaluation customer satisfaction feedback form
