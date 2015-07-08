@@ -8,11 +8,11 @@ USE OR OTHER DEALINGS IN THE SOFTWARE. USE AT YOUR OWN RISK.
 
 Date: July 5, 2015
 Author: Tishan Mills
-*/
-package com.tabbledabble.dcclientforapi.request.json;
+ */
+package com.quicktapsurvey.apihelper.request;
 
 public class ListSurveysRequest extends PagedRequest {
-	
+
 	public ListSurveysRequest(Integer pageSize, Integer pageNumber) {
 		super();
 		this.pageSize = pageSize;

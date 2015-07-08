@@ -1,20 +1,24 @@
-/**
- * Project: DC-ServerAPI
- * File: LoginResponse.java
- * Created by tishanmills on Sep 17, 2014 at 1:40:36 PM
- *
- * Copyright 2014 TabbleDabble Inc. All rights reserved.
- */
-package com.tabbledabble.dcclientforapi.response.json;
+/*
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, 
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A 
+PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL QUICKTAPSURVEY OR TABBLEDABBLE INC. BE 
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, 
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE 
+USE OR OTHER DEALINGS IN THE SOFTWARE. USE AT YOUR OWN RISK.
 
-import com.tabbledabble.dcclientforapi.enums.ResultCode;
+Date: July 5, 2015
+Author: Tishan Mills
+ */
+package com.quicktapsurvey.apihelper.response;
+
+import com.quicktapsurvey.apihelper.connect.ResultCode;
 
 /**
  * @author tishanmills
- *
+ * 
  */
 public class LoginResponse extends BaseResponse {
-	
+
 	/**
 	 * 
 	 * @param resultCode

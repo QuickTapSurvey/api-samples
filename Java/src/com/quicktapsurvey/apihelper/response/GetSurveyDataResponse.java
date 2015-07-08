@@ -1,20 +1,24 @@
-/**
- * Project: DC-ServerAPI
- * File: GetSurveyDataResponse.java
- * Created by tishanmills on Sep 17, 2014 at 1:41:50 PM
- *
- * Copyright 2014 TabbleDabble Inc. All rights reserved.
- */
-package com.tabbledabble.dcclientforapi.response.json;
+/*
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, 
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A 
+PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL QUICKTAPSURVEY OR TABBLEDABBLE INC. BE 
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, 
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE 
+USE OR OTHER DEALINGS IN THE SOFTWARE. USE AT YOUR OWN RISK.
 
-import com.tabbledabble.dcclientforapi.dataobjects.ApiSurveyElementDO;
-import com.tabbledabble.dcclientforapi.dataobjects.ApiSurveyMetaDataDO;
-import com.tabbledabble.dcclientforapi.dataobjects.ApiSurveyResponseDO;
-import com.tabbledabble.dcclientforapi.enums.ResultCode;
+Date: July 5, 2015
+Author: Tishan Mills
+ */
+package com.quicktapsurvey.apihelper.response;
+
+import com.quicktapsurvey.apihelper.connect.ResultCode;
+import com.quicktapsurvey.apihelper.data.ApiSurveyElementDO;
+import com.quicktapsurvey.apihelper.data.ApiSurveyMetaDataDO;
+import com.quicktapsurvey.apihelper.data.ApiSurveyResponseDO;
 
 /**
  * @author tishanmills
- *
+ * 
  */
 public class GetSurveyDataResponse extends BaseResponse {
 
@@ -23,14 +27,14 @@ public class GetSurveyDataResponse extends BaseResponse {
 	private ApiSurveyElementDO[] questions;
 	private ApiSurveyMetaDataDO[] responseFilters;
 	private ApiSurveyResponseDO[] responses;
-	
+
 	/**
 	 * @param resultCode
 	 */
 	public GetSurveyDataResponse(ResultCode resultCode) {
 		super(resultCode);
 	}
-	
+
 	/**
 	 * @param resultCode
 	 * @param surveyId
@@ -39,10 +43,8 @@ public class GetSurveyDataResponse extends BaseResponse {
 	 * @param responseFilters
 	 * @param responses
 	 */
-	public GetSurveyDataResponse(ResultCode resultCode, int surveyId,
-			int pageNumber, ApiSurveyElementDO[] questions,
-			ApiSurveyMetaDataDO[] responseFilters,
-			ApiSurveyResponseDO[] responses) {
+	public GetSurveyDataResponse(ResultCode resultCode, int surveyId, int pageNumber, ApiSurveyElementDO[] questions,
+			ApiSurveyMetaDataDO[] responseFilters, ApiSurveyResponseDO[] responses) {
 		super(resultCode);
 		this.surveyId = surveyId;
 		this.pageNumber = pageNumber;
@@ -59,7 +61,8 @@ public class GetSurveyDataResponse extends BaseResponse {
 	}
 
 	/**
-	 * @param surveyId the surveyId to set
+	 * @param surveyId
+	 *            the surveyId to set
 	 */
 	public void setSurveyId(int surveyId) {
 		this.surveyId = surveyId;
@@ -73,7 +76,8 @@ public class GetSurveyDataResponse extends BaseResponse {
 	}
 
 	/**
-	 * @param pageNumber the pageNumber to set
+	 * @param pageNumber
+	 *            the pageNumber to set
 	 */
 	public void setPageNumber(int pageNumber) {
 		this.pageNumber = pageNumber;
@@ -87,7 +91,8 @@ public class GetSurveyDataResponse extends BaseResponse {
 	}
 
 	/**
-	 * @param questions the questions to set
+	 * @param questions
+	 *            the questions to set
 	 */
 	public void setQuestions(ApiSurveyElementDO[] questions) {
 		this.questions = questions;
@@ -101,7 +106,8 @@ public class GetSurveyDataResponse extends BaseResponse {
 	}
 
 	/**
-	 * @param responseFilters the responseFilters to set
+	 * @param responseFilters
+	 *            the responseFilters to set
 	 */
 	public void setResponseFilters(ApiSurveyMetaDataDO[] responseFilters) {
 		this.responseFilters = responseFilters;
@@ -115,9 +121,10 @@ public class GetSurveyDataResponse extends BaseResponse {
 	}
 
 	/**
-	 * @param responses the responses to set
+	 * @param responses
+	 *            the responses to set
 	 */
 	public void setResponses(ApiSurveyResponseDO[] responses) {
 		this.responses = responses;
 	}
-}	
+}

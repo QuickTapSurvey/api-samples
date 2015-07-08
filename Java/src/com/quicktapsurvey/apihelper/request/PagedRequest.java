@@ -8,8 +8,8 @@ USE OR OTHER DEALINGS IN THE SOFTWARE. USE AT YOUR OWN RISK.
 
 Date: July 5, 2015
 Author: Tishan Mills
-*/
-package com.tabbledabble.dcclientforapi.request.json;
+ */
+package com.quicktapsurvey.apihelper.request;
 
 public class PagedRequest {
 	Integer pageNumber;
@@ -21,7 +21,7 @@ public class PagedRequest {
 	public Integer getPageNumber() {
 		return pageNumber;
 	}
-	
+
 	/**
 	 * @return the pageSize
 	 */
@@ -30,14 +30,16 @@ public class PagedRequest {
 	}
 
 	/**
-	 * @param pageNumber the pageNumber to set
+	 * @param pageNumber
+	 *            the pageNumber to set
 	 */
 	public void setPageNumber(Integer pageNumber) {
 		this.pageNumber = pageNumber;
 	}
-	
+
 	/**
-	 * @param pageSize the pageSize to set
+	 * @param pageSize
+	 *            the pageSize to set
 	 */
 	public void setPageSize(Integer pageSize) {
 		this.pageSize = pageSize;
