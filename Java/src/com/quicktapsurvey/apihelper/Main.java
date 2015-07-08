@@ -24,8 +24,6 @@ import com.quicktapsurvey.apihelper.response.LoginResponse;
 
 public class Main {
 
-	// final static String endpointUrl =
-	// "https://www.quicktapsurvey.com/api-v1/";
 	final static String endpointUrl = "https://www.quicktapsurvey.com/api-v1/";
 	static Logger log;
 
