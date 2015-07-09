@@ -8,7 +8,7 @@ USE OR OTHER DEALINGS IN THE SOFTWARE. THE SOFTWARE MAY BE USED FOR ANY PURPOSE,
 INCLUDING PAID-SERVICES, WITHOUT ANY ROYALTIES. USE AT YOUR OWN RISK.
 
 Date: July 5, 2015
-Author: Tishan Mills
+
  */
 package com.quicktapsurvey.apihelper;
 
@@ -22,6 +22,10 @@ import com.quicktapsurvey.apihelper.response.GetSurveyDataResponse;
 import com.quicktapsurvey.apihelper.response.ListSurveysResponse;
 import com.quicktapsurvey.apihelper.response.LoginResponse;
 
+/**
+ * @author tishanmills
+ * 
+ */
 public class Main {
 
 	final static String endpointUrl = "https://www.quicktapsurvey.com/api-v1/";

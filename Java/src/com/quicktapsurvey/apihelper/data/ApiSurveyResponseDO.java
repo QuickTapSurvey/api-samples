@@ -8,15 +8,15 @@ USE OR OTHER DEALINGS IN THE SOFTWARE. THE SOFTWARE MAY BE USED FOR ANY PURPOSE,
 INCLUDING PAID-SERVICES, WITHOUT ANY ROYALTIES. USE AT YOUR OWN RISK.
 
 Date: July 5, 2015
-Author: Tishan Mills
+
  */
 package com.quicktapsurvey.apihelper.data;
 
 import java.sql.Timestamp;
 
 /**
+ * @author tishanmills
  * 
- *
  */
 public class ApiSurveyResponseDO {
 	private String username;
