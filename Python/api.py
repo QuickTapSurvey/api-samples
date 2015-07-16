@@ -14,9 +14,9 @@
 import QTSAPIHelper, json
 
 # Change the following to your own username, password and API key
-username = "tmapi"
-password = "Passw0rd"
-apiKey = "D262ZK77Q2OTRQBMYKQCBXKXSL6Q7JHU"
+username = "myusername"
+password = "mypassword"
+apiKey = "myapikey"
 
 # Constants
 CODE_LOGIN_SUCCESS = 10
